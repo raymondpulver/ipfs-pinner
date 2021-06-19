@@ -1,0 +1,16 @@
+{
+  "name": "ipfs-pinner",
+  "version": "0.1.0",
+  "bin": {
+    "ipfs-pinner": "./bin/ipfs-pinner.js"
+  },
+  "description": "ipfs pinner",
+  "main": "index.js",
+  "repository": "https://github.com/raymondpulver/ipfs-pinner",
+  "author": "Raymond Pulver IV",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ipfs-deploy": "^10.1.0"
+  }
+}
