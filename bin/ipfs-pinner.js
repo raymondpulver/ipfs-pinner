@@ -1,5 +1,7 @@
+#!/usr/bin/env node
 'use strict';
 
+const fs = require('fs');
 const infura = new (require('ipfs-deploy/src/pinners/infura'))();
 const yargs = require('yargs');
 
