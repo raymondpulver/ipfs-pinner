@@ -2,7 +2,7 @@
 'use strict';
 
 const fs = require('fs');
-const infura = new (require('ipfs-deploy/src/pinners/infura'))();
+const infura = new (require('ipfs-deploy/src/pinners/infura'))({ projectId: process.env.IPFS_PINNER_INFURA_PROJECT_ID, projectSecret: process.env.IPFS_PINNER_INFURA_PROJECT_SECRET });
 const yargs = require('yargs');
 
 (async () => {
